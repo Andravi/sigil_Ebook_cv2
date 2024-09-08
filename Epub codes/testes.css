@@ -1,7 +1,7 @@
-
 html {
     max-width: 1920px;
     position: relative;
+    font-family: irish_grover
 }
 
 
@@ -11,21 +11,22 @@ body {
 
 
 .background {
-	background-color: green;
-	width: 100%;
-	height: 100%;
+    background-color: green;
+    width: 100%;
+    height: 100%;
 }
 
 
 .Dialog {
     position: absolute;
     font-size: 3em;
+
     /* width: fit-content; */
     width: fit-content;
-    
+
 }
 
-#left {
+.left {
     background-color: red;
     text-align: left;
     top: 10%;
@@ -35,11 +36,292 @@ body {
 
 }
 
-#right {
+.right {
     float: right;
     background-color: blue;
     top: 20%;
     left: 70%;
     right: 5%;
-    /* text-align: right; */
+    text-align: right;
+}
+
+
+
+
+
+#fala_2_p2 {
+    width: 45%;
+    left: 50%;
+    right: 5%;
+}
+
+
+#fala_3_p2 {
+    top: 50%
+}
+
+
+#fala_2_p3 {
+    top: 35%;
+    left: 32%;
+}
+
+#fala_3_p3 {
+    top: 55%;
+    left: 53%;
+}
+
+
+
+
+#fala_1_p4 {}
+
+#fala_2_p4 {
+    left: 50%
+}
+
+#fala_3_p4 {
+    top: 35%;
+
+}
+
+
+
+
+#fala_2_p5 {
+    left: 51%;
+    top: 70%;
+
+}
+
+
+
+
+#fala_2_p6 {
+    left: 60%;
+    top: 50%;
+
+}
+
+
+
+#fala_2_p7 {
+    left: 50%;
+    top: 60%;
+
+}
+
+
+
+#fala_2_p8 {
+    top: 35%;
+    left: 60%
+}
+
+#fala_3_p8 {
+    top: 60%;
+}
+
+
+
+#fala_1_p9 {
+    top: 10%;
+    left: 55%;
+}
+
+#fala_2_p9 {
+    top: 20%;
+}
+
+#fala_3_p9 {
+    top: 30%;
+    left: 60%;
+}
+
+#fala_4_p9 {
+    top: 50%;
+}
+
+
+
+#fala_1_p10 {
+    top: 5%;
+    left: 55%;
+}
+
+#fala_2_p10 {
+    top: 30%;
+}
+
+#fala_3_p10 {
+    top: 40%;
+    left: 60%;
+}
+
+#fala_4_p10 {
+    top: 55%;
+}
+
+
+
+#fala_1_p11 {
+    top: 5%;
+    left: 40%;
+}
+
+#fala_2_p11 {
+    top: 35%;
+
+}
+
+#fala_3_p11 {
+    top: 40%;
+    left: 61%;
+}
+
+
+
+#fala_2_p12 {
+    top: 40%;
+
+}
+
+#fala_3_p12 {
+    top: 75%;
+    left: 60%;
+}
+
+
+
+
+#fala_2_p13 {
+    top: 45%;
+
+}
+
+#fala_3_p13 {
+    top: 70%;
+    left: 5%;
+}
+
+
+
+
+#fala_2_p14 {
+    top: 45%;
+
+}
+
+#fala_3_p14 {
+    top: 70%;
+    left: 5%;
+}
+
+
+
+#fala_1_p15 {
+    top: 20%;
+
+}
+
+#fala_2_p15 {
+    top: 50%;
+    left: 40%;
+}
+
+
+
+#fala_1_p16 {
+    top: 15%;
+    left: 10%
+}
+
+#fala_2_p16 {
+    top: 50%;
+    left: 60%;
+}
+
+
+
+#fala_1_p17 {}
+
+#fala_2_p17 {
+    top: 32%;
+
+}
+
+#fala_3_p17 {
+    top: 50%;
+
+}
+
+
+
+
+#fala_1_p18 {
+    top: 20%;
+}
+
+#fala_2_p18 {
+    top: 42%;
+
+}
+
+
+
+
+#fala_1_p19 {
+    top: 15%;
+}
+
+#fala_2_p19 {
+    top: 47%;
+
+}
+
+
+
+#fala_2_p20 {
+    top: 25%;
+    left: 50%;
+}
+
+#fala_3_p20 {
+    top: 50%;
+}
+
+
+
+#fala_1_p21 {}
+
+#fala_2_p21 {
+    top: 25%;
+
+}
+
+#fala_3_p21 {
+    top: 85%;
+    left: 65%
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Andika";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../Fonts/Andika-Regular.ttf);
+}
+
+@font-face {
+    font-family: "irish_grover";
+    font-weight: normal;
+    font-style: normal;
+    src: url(../Fonts/IrishGrover-Regular.ttf);
 }

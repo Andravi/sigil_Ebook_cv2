@@ -1,24 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="testes.css">
-    <title>Document</title>
-</head>
-<body>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
-    <div class="background">
-        <div id='left' class="Dialog">
-                ...eu nem te conto!
-        
-        </div>
-    
-        <div id='right' class="Dialog">
-            Conta, vai, conta!
-        </div>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./testes.css" type="text/css"/>
+<link rel="stylesheet" href="./t.css" type="text/css"/>
+  <title>pg2</title>
+</head>
+
+<body onclick="showBallon()" >
+  <div  class="background">
+    <div id="fala_1_p2" class="Dialog left">
+     	Está bem! <br/>
+		Mas você promete não contar para mais ninguém!
+
     </div>
 
-    
+    <div id="fala_2_p2" class="Dialog right">
+      -Prometo.<br/>
+Juro que não conto!
+Se eu contar quero morrer sequinha na mesma hora...
+    </div>
+	<div id="fala_3_p2" class="Dialog left">
+		Não precisa exagerar! <br/><br/>O que vou contar não é nada assim tão sério.<br/><br/> Não precisa jurar.
+	</div>
+  </div>
+
+
+	<script>
+		let fala1 = document.getElementById("fala_1_p2");
+      let fala2 = document.getElementById("fala_2_p2");
+      let fala3 = document.getElementById("fala_3_p2");
+
+      fala1.classList.add("elem");
+      fala2.style.display = 'none'
+      fala3.style.display = 'none'
+
+      let count = 0;
+      function showBallon() {
+        if (count == 0) {
+            fala2.style.display = 'block'
+          fala2.classList.add("elem");
+          count++;
+        } else {
+            fala3.style.display = 'block'
+          fala3.classList.add("elem");
+        }
+    }
+   </script>
+
+
 </body>
 </html>
