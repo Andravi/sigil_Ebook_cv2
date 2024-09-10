@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<img?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
@@ -8,52 +8,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="./testes.css" type="text/css"/>
 <link rel="stylesheet" href="./t.css" type="text/css"/>
-  <title>pg2</title>
+
+
+  <title>Document</title>
 </head>
 
-<body onclick="showBallon()" >
-  <!-- <img src="bg-1.png" alt=""> -->
-  <div id="bg_img_02" class="background">
-    <div id="fala_1_p2" class="Dialog left">
-     	Está bem! <br/>
-		Mas você promete não contar para mais ninguém!
+<body>
+	
+  <div id='bg_img_01' class="background">
+    <div id='left'class="left">
+      <img id="bl_fala_1_p1" src="./Images/bl_fala_1_p2.png" alt="Personagem 1: ...eu nem te conto!"/> 
+    
+      <div class="Dialog left">
+          ...eu nem te conto!
+      </div>
 
+      
     </div>
-
-    <div id="fala_2_p2" class="Dialog right">
-      -Prometo.<br/>
-Juro que não conto!
-Se eu contar quero morrer sequinha na mesma hora...
-    </div>
-	<div id="fala_3_p2" class="Dialog left">
-		Não precisa exagerar! <br/><br/>O que vou contar não é nada assim tão sério.<br/><br/> Não precisa jurar.
-	</div>
   </div>
 
-
-	<script>
-    // COlocar um delay de x segundos entre coisas
-		let fala1 = document.getElementById("fala_1_p2");
-      let fala2 = document.getElementById("fala_2_p2");
-      let fala3 = document.getElementById("fala_3_p2");
-
-      fala1.classList.add("elem");
-      fala2.style.display = 'none'
-      fala3.style.display = 'none'
-
-      let count = 0;
-      function showBallon() {
-        if (count == 0) {
-            fala2.style.display = 'block'
-          fala2.classList.add("elem");
-          count++;
-        } else {
-            fala3.style.display = 'block'
-          fala3.classList.add("elem");
-        }
-    }
-   </script>
-
-
+	<div class="right">
+    	<img id="bl_fala_2_p1" src="./Images/bl_fala_2_p1.svg" alt="Personagem 2: Conta, vai, conta!"/>
+  		<div id='right' class="Dialog right">
+      Conta, vai, conta!
+    </div>
+	</div>
+  </div>
 </body>
 </html>

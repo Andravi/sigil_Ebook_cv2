@@ -11,6 +11,38 @@ body {
 }
 
 
+#bl_fala_1_p1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+  }
+  
+  #bl_fala_2_p1{
+    /*Posição Imagem Balão da Fala - Direita*/
+    position: absolute;
+    top: 14%;
+    left: 67%;
+    right: 5%;
+  }
+  
+  
+  #bl_falas_p2{
+    /*Posição Imagem Balão da Fala*/
+    position: absolute;
+    top: 4.5%;
+    left: 3.5%;
+  }
+  
+  
+  #bl_fala_1_p11{
+    /*Posição Imagem Balão da Fala - Esquerda*/
+   position: absolute;
+    top: -210%;
+    left: -5%;
+    right: 5%;
+    
+  }
+  
 
 
 .background {
@@ -33,7 +65,7 @@ body {
 }
 
 .left {
-    background-color: red;
+    background-image: url(./Images/bl_fala_1_p2.png);
     text-align: left;
     top: 10%;
     left: 5%;
@@ -52,7 +84,10 @@ body {
 }
 
 
-
+#left {
+    position: absolute;
+    width: 400px;
+}
 
 
 #fala_2_p2 {
