@@ -14,7 +14,7 @@ body {
 #bl_fala_1_p1{
     position: absolute;
     top: 5%;
-    left: 50%;
+    left: 5%;
   }
   
   #bl_fala_2_p1{
@@ -49,11 +49,20 @@ body {
     position: absolute;
     background-image: url('bg-1.png');
     background-repeat: no-repeat;
-    background-color: green;
+    
     width: 100%;
     height: 100%;
 }
 
+#a {
+background-image: url(./Images/bl_fala_1_p2.png);
+    background-repeat: no-repeat;
+    top: 10%;
+    left: 30%;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+}
 
 .Dialog {
     position: absolute;
@@ -65,7 +74,7 @@ body {
 }
 
 .left {
-    background-image: url(./Images/bl_fala_1_p2.png);
+    
     text-align: left;
     top: 10%;
     left: 5%;
